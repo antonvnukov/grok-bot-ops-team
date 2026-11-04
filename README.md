@@ -1,5 +1,7 @@
 # Grok bot ops team
 
+![Your bots ask you six questions. Nothing else.](assets/hero.png)
+
 A template for running a team of Grok bots (or any chat agents) with an **ops layer**: roles, six stop classes, a reviewer, run logs, routing and kill rules. Click **Use this template** to start your own.
 
 The ops layer is the part that makes the other bots safe to leave alone. It is the part most setups skip.
