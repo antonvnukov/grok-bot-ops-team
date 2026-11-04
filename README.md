@@ -9,6 +9,10 @@ The ops layer is the part that makes the other bots safe to leave alone. It is t
 |---|---|
 | `AGENTS.md` | The one contract every bot reads: invariants, read ladder, six stop classes, log format |
 | `ops/bots.md` | The ops roster: 7 bots, one job each |
+| `ops/principles.md` | The idea behind each rule, and what breaks without it |
+| `ops/usage-and-cost.md` | Run log, cheap check, weekly prune: how not to burn the allowance |
+| `ops/descriptions.md`, `ops/privacy.md`, `ops/contracts.md` | One home for rules, memory and restarts, privacy gate, format contracts |
+| `CREDITS.md` | Who inspired what |
 | `ops/routing.md` | What bots do, what they hand to a coding agent, how a stuck card escalates |
 | `bots/<slug>/block.md` | One block per bot: job, routine, kill rule, paste-ready Description |
 | `bots/_template/block.md` | Copy this for a new bot |

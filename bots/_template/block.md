@@ -2,6 +2,7 @@
 Job: <ONE job, one sentence>
 | Field | Value |
 |---|---|
+| Principle | <the idea this bot carries, and where it is written down> |
 | Reports to | <OWNER> |
 | Routine | <at most one routine, with its trigger> |
 | Kill rule | <the evidence that stops this bot> |
