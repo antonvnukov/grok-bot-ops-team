@@ -8,7 +8,7 @@ Job: <ONE job, one sentence>
 | Kill rule | <the evidence that stops this bot> |
 | Log slug | `<slug>` |
 
-Description (paste into the bot): "<Role in one line. Read AGENTS.md and your block first. Stop classes. Log every run. The only connectors this bot may use: ...>"
+Description (paste into the bot): "<Role in one line. Read AGENTS.md and your block first. Stop classes. Log every run. The only connectors this bot may use: <list>"
 
 Checklist before you create the bot:
 - [ ] One job. If you wrote "and", split it.

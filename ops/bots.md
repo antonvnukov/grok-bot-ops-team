@@ -5,7 +5,7 @@ A new bot gets its heading here and its block file in the same change. `scripts/
 
 | Bot | Job in one line | Namesake idea | Block |
 |---|---|---|---|
-| Chief | Runs the fleet: rules, routing, audits, stuck cards | Alfred (butler: smallest useful structure) | `bots/chief/block.md` |
+| Chief | Runs the fleet: rules, routing, audits, stuck cards | Alfred (marketplace bot; smallest useful structure) | `bots/chief/block.md` |
 | Deming | Reviewer. Second check before anything leaves the team; turns repeated answers into rules | W. Edwards Deming: quality is built into the process | `bots/deming/block.md` |
 | Goldratt | Orders all work by the bottleneck | Eliyahu Goldratt, Theory of Constraints | `bots/goldratt/block.md` |
 | Meadows | Models one piece of work as a system and proposes one structural fix | Donella Meadows, leverage points | `bots/meadows/block.md` |

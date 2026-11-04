@@ -4,31 +4,31 @@ Each rule has three parts: the **rule**, the **idea** behind it (and whose), and
 The authors did not review this. One idea per author is a simplification.
 
 ## 1. One bot, one job
-- Idea: satisficing and bounded rationality (Herbert Simon). A small agent with a small job fits in its context and in your head.
+- Idea: bounded rationality and near-decomposability (Herbert Simon): complex systems work as loosely coupled parts, each good enough at one thing. Satisficing is the loose analogy for "good enough".
 - Breaks without it: a bot with five jobs does all five badly, and you cannot say which rule it dropped.
 
 ## 2. Six stop classes, and nothing else needs a yes
-- Idea: decision rights. Decide where a decision lives before the decision comes.
+- Idea: decision rights (no single author). Decide where a decision lives before the decision comes.
 - Breaks without it: the bot asks about everything and you become the bottleneck, or asks about nothing and sends something you never saw.
 
 ## 3. A stop names its class
-- Idea: measure the process, not the person (Deming). A stop with no class is a defect you cannot count.
+- Idea: measure the process, not the person (Deming). A stop with no class is a defect you cannot count. Watch the trend; do not set a numeric target (Deming opposed quotas).
 - Breaks without it: you cannot tell which rule is missing. With the class, a repeated stop becomes a standing rule.
 
 ## 4. A reviewer before every send
-- Idea: improvement loop (Deming's plan, do, check, act). The reviewer also feeds a lessons register, so the same defect does not return.
+- Idea: the plan, do, check, act loop (Shewhart, popularised by Deming). Honest trade-off: Deming said to cease dependence on inspection, and this reviewer is an inspection gate. We keep it because a bot send cannot be undone, and we make it feed a lessons register so the process improves and the inspection shrinks.
 - Breaks without it: a writer bot sends what it believes. The reviewer checks claims against the source.
 
 ## 5. Deterministic first
-- Idea: use the cheapest tool that is correct. A rule can count, diff and route; only judgement needs a model.
+- Idea: use the cheapest tool that is correct (no single author). A rule can count, diff and route; only judgement needs a model.
 - Breaks without it: you pay model tokens for work a script does for free, and the answer is less reliable.
 
 ## 6. Order work by the bottleneck
-- Idea: Theory of Constraints (Goldratt). The output of the whole system equals the output of its constraint. Improving anything else is waste.
+- Idea: Theory of Constraints (Goldratt). The throughput of the whole system equals the throughput of its constraint. Improving elsewhere does not raise throughput. Use the five focusing steps: identify, exploit, subordinate, elevate, repeat. (The rank formula in Goldratt's block is this repo's own.)
 - Breaks without it: bots stay busy on easy work while the one stage that limits revenue waits.
 
 ## 7. Fix structure, not symptoms
-- Idea: leverage points (Donella Meadows). The higher the leverage point, the more the system resists the change, so propose ONE structural change with a check date.
+- Idea: leverage points (Donella Meadows). The higher the leverage point, the more the system resists the change, so propose ONE structural change with a check date. Meadows also warns that people often push a leverage point the wrong way: state the direction and the side effect.
 - Breaks without it: the same fix repeats every week and the cause stays.
 
 ## 8. Every spend and every routine is questioned
@@ -36,7 +36,7 @@ The authors did not review this. One idea per author is a simplification.
 - Breaks without it: routines that change nothing keep running and burn the allowance. See `ops/usage-and-cost.md`.
 
 ## 9. Watch the platform, turn gaps into cards
-- Idea: augment the team, and improve the way you improve (Douglas Engelbart). The team's own methods are a thing to upgrade.
+- Idea: bootstrapping (Douglas Engelbart): improve the process that improves your process. Watching the platform is how the team finds its next upgrade.
 - Breaks without it: a vendor ships a feature or a limit and the team learns by failing.
 
 ## 10. Every bot has a kill rule
@@ -44,7 +44,7 @@ The authors did not review this. One idea per author is a simplification.
 - Breaks without it: bots only accumulate.
 
 ## 11. One batch per handoff
-- Idea: batch size is a cost. One message with the whole batch, one re-check after every fix.
+- Idea: batch size is a cost (lean manufacturing, Donald Reinertsen). One message with the whole batch, one re-check after every fix.
 - Breaks without it: ten messages for ten findings, ten wake-ups, ten times the usage.
 
 ## 12. Plain text in every outward draft

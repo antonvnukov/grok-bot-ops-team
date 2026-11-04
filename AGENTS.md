@@ -7,11 +7,11 @@ Version: 1.0
 ## 1. What this repo is
 Two layers, one repo:
 - **Context** (written by a human session, read-only for bots): `AGENTS.md`, `ops/`, `bots/`, `skills/`.
-- **Outputs** (written by bots): `tasks/<task-id>/` only.
+- **Outputs** (written by bots): `tasks/<task-id>/`, plus the run log `runs/<bot-slug>.jsonl` and each bot's own `bots/<slug>/memory.md` and `routines.md`.
 
 Three invariants:
-1. A task lives in your task tracker (<TRACKER>), never in this repo. A file here or a chat message is not a task.
-2. A bot writes only inside `tasks/<task-id>/` for a task it holds.
+1. A task lives in your task tracker (<TRACKER>), never in this repo. A file here or a chat message is not a task. No tracker yet? Use one `TASKS.md` file kept outside `tasks/`, one line per card with an id, status and owner.
+2. A bot writes only inside `tasks/<task-id>/` for a task it holds, and to its own run log, `memory.md` and `routines.md`. Nothing else.
 3. Everything outside `tasks/` is written by a human session. If it is wrong, say so in your task log. Do not fix it yourself.
 
 ## 2. Where you read context: cheapest first
@@ -20,7 +20,7 @@ Go down this ladder. Stop at the first rung that answers the question.
 2. This repo.
 3. A connector or API (search index, CRM, tracker). Read only.
 4. Web search.
-5. A browser. Read `ops/browser-rules.md` first (write it for your own risk tolerance).
+5. A browser. Read `ops/browser-rules.md` first (a stub is included; set it for your own risk tolerance).
 6. Ask the owner (section 3).
 
 Cite the file path and line for every fact you use.
