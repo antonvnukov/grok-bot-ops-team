@@ -50,3 +50,7 @@ The authors did not review this. One idea per author is a simplification.
 ## 12. Plain text in every outward draft
 - Idea: simplified technical English (ASD-STE100): short sentences, common words, one idea per sentence, active voice.
 - Breaks without it: drafts read as machine text, and the reviewer spends its pass on style.
+
+## 13. Fix the harness, not the prompt
+- Idea (Mitchell Hashimoto, as I read his writing on working with coding agents): when an agent makes a mistake, engineer the tools, checks and files so the mistake cannot recur, instead of adding one more line to a prompt.
+- Breaks without it: the same error comes back under a new wording, and the prompt grows.

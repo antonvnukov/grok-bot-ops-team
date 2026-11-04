@@ -12,7 +12,7 @@ The ops layer is the part that makes the other bots safe to leave alone. It is t
 | Path | What it is |
 |---|---|
 | `AGENTS.md` | The one contract every bot reads: invariants, read ladder, six stop classes, log format |
-| `ops/bots.md` | The ops roster: 7 bots, one job each |
+| `ops/bots.md` | The ops roster: 8 bots, one job each |
 | `ops/principles.md` | The idea behind each rule, and what breaks without it |
 | `ops/usage-and-cost.md` | Run log, cheap check, weekly prune: how not to burn the allowance |
 | `ops/descriptions.md`, `ops/privacy.md`, `ops/contracts.md` | One home for rules, memory and restarts, privacy gate, format contracts |
@@ -42,13 +42,14 @@ The ops bots carry the name of an author. The name is a label for one idea, so a
 
 | Bot | Idea borrowed |
 |---|---|
-| Deming | Improve the process, not the person. This bot is a deliberate inspection gate, a trade-off against Deming's own view that quality comes from the process; its lessons register is what feeds the process back |
-| Goldratt | Order work by the constraint |
-| Meadows | Find the leverage point, not the symptom |
-| Munger | Invert, check the incentives, do the money math |
-| Engelbart | Improve the way the team improves |
-| Simon | Bounded rationality: build small and good enough (satisficing); one job per bot is closer to his near-decomposability |
-| Chief | The butler: smallest useful structure |
+| Edwards Deming | Improve the process, not the person. This bot is a deliberate inspection gate, a trade-off against Deming's own view that quality comes from the process; its lessons register is what feeds the process back |
+| Eliyahu Goldratt | Order work by the constraint |
+| Donella Meadows | Find the leverage point, not the symptom |
+| Charlie Munger | Invert, check the incentives, do the money math |
+| Douglas Engelbart | Improve the way the team improves |
+| Herbert Simon | Bounded rationality: build small and good enough (satisficing); one job per bot is closer to his near-decomposability |
+| Stafford Beer (Chief) | The purpose of a system is what it does: audit bots by what they do |
+| Mitchell Hashimoto | Fix the harness, not the prompt |
 
 Ideas are "as I read them". Caveats: none of these people reviewed or endorsed this repo. One idea per name is a simplification, and I may read some authors wrong. The name does not do the work. The rule has to live in the bot's Description, its log and the check script. You can rename every bot; the template works the same.
 
