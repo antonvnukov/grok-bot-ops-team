@@ -4,6 +4,8 @@ A template for running a team of Grok bots (or any chat agents) with an **ops la
 
 The ops layer is the part that makes the other bots safe to leave alone. It is the part most setups skip.
 
+![The team: owner, Chief, Deming and five specialist bots](assets/team.png)
+
 ## What is in the box
 | Path | What it is |
 |---|---|
@@ -28,6 +30,10 @@ The ops layer is the part that makes the other bots safe to leave alone. It is t
 4. **A reviewer sits before every send** (principle 4). The Deming bot checks drafts and turns the owner's repeated answers into rules. Watch the trend of stops with no class.
 5. **Deterministic first** (principle 5). A step a rule can decide goes to a script (0 tokens). The bot keeps only judgement.
 6. **Every bot has a kill rule** (principle 10). It names the evidence that stops the bot. A bot with no accepted work for 4 weeks goes to the Retire list.
+
+![One task from card to send, with three gates](assets/flow.png)
+
+![The six stop classes](assets/stops.png)
 
 ## Names
 The ops bots carry the name of an author. The name is a label for one idea, so a log line such as `Deming: PASS` tells you the rule before you open a file.
