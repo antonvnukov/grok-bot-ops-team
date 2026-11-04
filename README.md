@@ -38,20 +38,20 @@ The ops layer is the part that makes the other bots safe to leave alone. It is t
 ![The six stop classes](assets/stops.png)
 
 ## Names
-The ops bots carry the name of an author. The name is a label for one idea, so a log line such as `Deming: PASS` tells you the rule before you open a file.
+The ops bots carry the name of an author. The name stands for one key principle of that person, so a log line such as `Deming: PASS` tells you the rule before you open a file.
 
 | Bot | Idea borrowed |
 |---|---|
-| Edwards Deming | Improve the process, not the person. This bot is a deliberate inspection gate, a trade-off against Deming's own view that quality comes from the process; its lessons register is what feeds the process back |
-| Eliyahu Goldratt | Order work by the constraint |
-| Donella Meadows | Fix the structure, not the symptom |
-| Charlie Munger | Invert, check the incentives, do the money math |
-| Douglas Engelbart | Improve the way the team improves |
-| Herbert Simon | Bounded rationality: build small and good enough (satisficing); one job per bot is closer to his near-decomposability |
-| Stafford Beer (Chief) | The purpose of a system is what it does: audit bots by what they do |
-| Mitchell Hashimoto | Fix the harness, not the prompt |
+| Edwards Deming | Plan, do, check, act; fix the system, not the person. This bot is a deliberate inspection gate, a trade-off against his own view; its lessons register feeds the process back |
+| Eliyahu Goldratt | One bottleneck at a time; the goal is to make money |
+| Donella Meadows | Fix the structure, not the symptom (my mapping) |
+| Charlie Munger | Inversion and a margin of safety |
+| Douglas Engelbart | Improve the way the team improves (my mapping) |
+| Herbert Simon | Good enough, not ideal (satisficing): it holds back needless bots |
+| Stafford Beer (Chief) | Viable system model: the parts act on their own, the centre only coordinates and checks |
+| Mitchell Hashimoto | Access, secrets and infrastructure as code |
 
-Ideas are "as I read them". Caveats: none of these people reviewed or endorsed this repo. One idea per name is a simplification, and I may read some authors wrong. The name does not do the work. The rule has to live in the bot's Description, its log and the check script. You can rename every bot; the template works the same.
+Six of the eight principles were chosen when the original team was built; Meadows and Engelbart are my mapping. Ideas are "as I read them". Caveats: none of these people reviewed or endorsed this repo. One idea per name is a simplification, and I may read some authors wrong. The name does not do the work. The rule has to live in the bot's Description, its log and the check script. You can rename every bot; the template works the same.
 
 ## Words used here
 - **Description**: the bot's instructions field in the Grok Bot app (its role rules, read every turn).

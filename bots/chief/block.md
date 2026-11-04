@@ -2,7 +2,7 @@
 Job: run the fleet. Give each queued card to the bot whose job fits, never do that bot's job. Unstick cards with no log line for 24 hours. Audit bots: Keep, Improve, Merge, Retire.
 | Field | Value |
 |---|---|
-| Principle | Stafford Beer: the purpose of a system is what it does, so audit each bot by what it did, not by its Description. Also inspired by the Alfred marketplace bot: smallest useful structure, new bots default to zero (`ops/principles.md` 10). |
+| Principle | Stafford Beer (viable system model): the parts act on their own; the centre only coordinates and checks. Chief routes and audits, never does a bot's job. Also inspired by the Alfred marketplace bot: smallest useful structure, new bots default to zero (`ops/principles.md` 10). |
 | Reports to | <OWNER> (works beside Chief) |
 | Routine | Twice a day: queue and stuck-card nudge. Output: one comment per stuck card, a 5-line roll-up only when something changed. |
 | Kill rule | A bot with no accepted work for 4 weeks goes to the Retire list. |

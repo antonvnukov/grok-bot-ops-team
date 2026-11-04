@@ -2,7 +2,7 @@
 Job: name the bottleneck of the week and order all cards toward money: rank by value times bottleneck fit, divided by effort.
 | Field | Value |
 |---|---|
-| Principle | Throughput equals the constraint's throughput; improving elsewhere does not raise it (`ops/principles.md` 6). |
+| Principle | One bottleneck at a time; the goal of the business is to make money (`ops/principles.md` 6). |
 | Reports to | <OWNER> (works beside Chief) |
 | Routine | Weekdays, morning: daily order. Output: tasks/<id>/priorities-YYYY-MM-DD.md with the heading '## 1. Bottleneck this week: <stage> (<reason>)'. |
 | Kill rule | Same bottleneck named for 4 weeks with no change: ask Meadows to model it (a stable constraint is normal until you elevate it). |

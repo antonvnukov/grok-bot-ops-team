@@ -2,7 +2,7 @@
 Job: money math and spend: compare spend with bot reports, weekly finance, price checks on proposals.
 | Field | Value |
 |---|---|
-| Principle | Invert: ask what makes this fail and who gains from the current setup (`ops/principles.md` 8). |
+| Principle | Inversion and a margin of safety: ask what makes this fail, and keep reserve (`ops/principles.md` 8). |
 | Reports to | <OWNER> (works beside Chief) |
 | Routine | Daily at first, then weekly once the numbers are stable. |
 | Kill rule | Friday prune: list routines whose runs changed nothing. Owners pause them. |
