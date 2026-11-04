@@ -13,7 +13,7 @@ A new bot gets its heading here and its block file in the same change. `scripts/
 | Meadows | Donella Meadows | Models one piece of work as a system and proposes one structural fix | Donella Meadows, leverage points | `bots/meadows/block.md` |
 | Munger | Charlie Munger | Money math and spend, weekly | Charlie Munger: invert, check the incentives | `bots/munger/block.md` |
 | Engelbart | Douglas Engelbart | Watches the platform's changelogs and best practices | Douglas Engelbart: augment the team's capability | `bots/engelbart/block.md` |
-| Hashimoto | Mitchell Hashimoto | IT, access, keys; fixes the harness | Fix the harness, not the prompt (as I read his writing on agent engineering) | `bots/admin/block.md` |
+| Hashimoto | Mitchell Hashimoto | IT, access, keys; fixes the harness | Fix the harness, not the prompt (as I read his writing on agent engineering) | `bots/hashimoto/block.md` |
 | Simon | Herbert Simon | Bot builder. Drafts new bots from the template | Herbert Simon: satisficing, one small job per bot | `bots/simon/block.md` |
 
 Rename them. The names are labels, not endorsements (see README, "Names").

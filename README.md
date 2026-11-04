@@ -44,7 +44,7 @@ The ops bots carry the name of an author. The name is a label for one idea, so a
 |---|---|
 | Edwards Deming | Improve the process, not the person. This bot is a deliberate inspection gate, a trade-off against Deming's own view that quality comes from the process; its lessons register is what feeds the process back |
 | Eliyahu Goldratt | Order work by the constraint |
-| Donella Meadows | Find the leverage point, not the symptom |
+| Donella Meadows | Fix the structure, not the symptom |
 | Charlie Munger | Invert, check the incentives, do the money math |
 | Douglas Engelbart | Improve the way the team improves |
 | Herbert Simon | Bounded rationality: build small and good enough (satisficing); one job per bot is closer to his near-decomposability |
@@ -70,6 +70,7 @@ Ideas are "as I read them". Caveats: none of these people reviewed or endorsed t
 6. When routines start burning allowance, read `ops/usage-and-cost.md` and use `scripts/precheck.py`.
 
 ## What this does not do
+- It is only the ops layer. A running fleet has more bots than the 8 here (sales and others); those stay private because they carry business data.
 - It does not include any sales bots, contacts, prompts for outreach, or client data.
 - It makes no claim that it will make a bot team go viral, earn money or save a fixed number of hours. Measure your own.
 - It does not replace a human who reads what goes out.
